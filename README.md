@@ -1,42 +1,98 @@
-# Frontend Mentor - Huddle landing page with single introductory section
+# Frontend Mentor - Huddle landing page with single introductory section solution
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Create a custom `README.md`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+## Overview
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+This code taught me the basic use of html and css
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### The challenge
 
-## Submitting your solution
+Users should be able to:
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+- View the optimal layout for the page depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Screenshot
 
-## Sharing your solution
+![huddle screenshot](images/huddle.png)
 
-There are multiple places you can share your solution:
+### Links
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+## My process
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+### Built with
 
-## Got feedback for us?
+- Semantic HTML5 markup
+- Flexbox
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+### What I learned
 
-**Have fun building!** 🚀
+I learnt basic html and css and how to style a document
+
+```html
+<div>
+  <img id="mockup" src="./images/illustration-mockups.svg" />
+  <h1 id="head">
+    Build the community <br /><span class="break">your fans will love</span>
+  </h1>
+  <br />
+  <p>
+    Huddle re-imagines the way we build communities. You have a voice, but so
+    does your audience. Create connections with your users as you engage in
+    genuine discussion.
+  </p>
+</div>
+```
+
+```css
+button {
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-family: "Open Sans" sans-serif;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: hsl(257, 40%, 49%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(19, 18, 18, 0.541);
+}
+```
+
+```
+
+
+
+## Author
+
+- Website - [Okechukwu Chidera]
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/OdecoGlobal)
+- Twitter - [@M_Derah](https://www.twitter.com/M_Derah)
+
+```
